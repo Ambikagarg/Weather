@@ -7,6 +7,10 @@ const server = http.createServer((req, res)=>{
     if(req.url == "/"){
         requests("http://api.openweathermap.org/data/2.5/weather?q=Pune&appid=e52973f69b49ffa4e1d3df3c9fa3f6bd")
         .on('data', (chunk)=> {
+            const objdata = JSON.parse(chunk);
+            const arrData = [objdata];
+            
+            
           console.log(chunk)
         })
         .on('end', (err)=> {
