@@ -1,15 +1,14 @@
 {
-  "name": "weatherappnodejs",
+  "name": "weather",
   "version": "1.0.0",
-  "description": "creating a weather nodejs app",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "thapa technical",
+  "author": "",
   "license": "ISC",
   "dependencies": {
-    "requests": "^0.3.0",
-    "dotenv": "^8.2.0"
+    "requests": "^0.3.0"
   }
 }
